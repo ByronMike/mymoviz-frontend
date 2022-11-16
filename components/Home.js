@@ -14,7 +14,7 @@ function Home() {
 
 
   useEffect(() => {
-    fetch('http://localhost:3000/movies')
+    fetch('https://mymoviz-backend-sable.vercel.app/movies')
       .then(response => response.json())
       .then(data => {
         // Voir la sortie Thunder Client
